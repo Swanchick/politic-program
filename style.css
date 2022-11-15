@@ -40,39 +40,70 @@ li {
     font-size: 19px;
 }
 
-nav li {
-    list-style: none;
-    font-size: 14px;
+.nav {
+    position: absolute;
+    left: 25%;
+    right: 25%;
 }
 
-nav ul {
+.nav li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav ul {
     display: flex;
     justify-content: space-around;
 }
 
-nav a {
+.nav a {
     text-decoration: none;
     color: #0d1b2a;
     transition: .2s;
 }
 
-nav a:visited {
+.nav a:visited {
     color: #0d1b2a;
 }
 
-nav a:hover {
+.nav a:hover {
     pointer-events: painted;
     
     transition: .2s;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .main {
     position: absolute;
-    left: 7%;
-    right: 7%;
+    left: 25%;
+    right: 25%;
 
+    margin-top: 50px;
     margin-bottom: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav li {
+        font-size: 14px;
+    }
+
+    .nav a:hover {
+        pointer-events: painted;
+        
+        transition: .2s;
+        font-size: 20px;
+    }
+    
+    .nav {
+        left: 7%;
+        right: 7%;
+    }
+
+    .main {
+        left: 7%;
+        right: 7%;
+    }
+    
 }
 
 .text-img {    

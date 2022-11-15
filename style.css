@@ -17,12 +17,14 @@ h1 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 b {
     transition: background-color .1s linear;
     background-color: rgb(255, 253, 205);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px;
+    /* border-radius: 5px; */
 }
 
 b:hover {
@@ -30,11 +32,17 @@ b:hover {
 }
 img {
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
 }
 
+li {
+    font-size: 19px;
+}
 
 nav li {
     list-style: none;
+    font-size: 14px;
 }
 
 nav ul {
@@ -56,20 +64,20 @@ nav a:hover {
     pointer-events: painted;
     
     transition: .2s;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .main {
     position: absolute;
-    left: 10%;
-    right: 10%;
+    left: 7%;
+    right: 7%;
 
     margin-bottom: 500px;
 }
 
 .text-img {    
     display: flex;
-
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 3px;
     justify-content: flex-start;
     align-items: center;
 
@@ -100,11 +108,12 @@ nav a:hover {
 .text-img b {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 251, 223);
+    box-shadow: none;
 }
 
-.text-img:hover {
+/* .text-img:hover {
     border-width: 3px;
-}
+} */
 
 .text-img-clear {
     display: flex;

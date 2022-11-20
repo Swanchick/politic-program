@@ -79,15 +79,6 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
-    nav li {
-        font-size: 12px;
-    }
-
-    nav a {
-        left: 0px;
-        right: 0px;
-    }
-
     .main {
         left: 7%;
         right: 7%;
@@ -168,14 +159,16 @@ li {
     width: 256px; 
     height: 256px;
 
-    margin-right: 10px;
+    margin-right: 3rem;
 }
 
 @media only screen and (max-width: 768px) {
-    .big-image img {
-        width: 156px; 
-        height: 156px;
+    .big-image {
+        display: block;
+    }
     
-        margin-right: 10px;
+    .big-image img {
+        width: 256; 
+        height: 256px;
     }
 }

@@ -154,6 +154,12 @@ li {
     display: flex;
 
     justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.big-image h1 {    
+    width: 100%;
+    text-align: center;
 }
 
 .big-image img {

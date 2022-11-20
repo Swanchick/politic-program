@@ -150,6 +150,7 @@ li {
 }
 
 .big-image {
+    width: 100%;
     display: flex;
 
     justify-content: flex-start;
@@ -166,9 +167,17 @@ li {
     .big-image {
         display: block;
     }
+
+    .big-image h1 {
+        width: 100%;
+        text-align: center;
+    }
     
     .big-image img {
-        width: 256; 
-        height: 256px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
     }
 }
